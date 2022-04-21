@@ -4,8 +4,11 @@ body {
     text-align: left;
     font-size: 16px;
 
+}
 
-
+.title {
+    font-size: 30px;
+    text-align: center;
 }
 
 #stopwatch {
@@ -48,11 +51,6 @@ body {
 
 
 
-header {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-}
 
 .countduwn {
     background-color: #fff;
@@ -190,20 +188,9 @@ li:hover {
 }
 
 
-#btn {
-    width: 200px;
-    height: 56px;
-    color: white;
-    background: rgb(125, 184, 252);
-    border-radius: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 80px auto;
-    cursor: pointer;
-    font-size: 24px;
 
-}
+
+
 
 #dacho {
     width: 200px;
@@ -219,42 +206,14 @@ li:hover {
     font-size: 24px;
 }
 
-#btn1 {
-    width: 200px;
-    height: 56px;
-    color: white;
-    background: rgb(125, 184, 252);
-    border-radius: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 80px auto;
-    cursor: pointer;
-    font-size: 24px;
-}
+
 
 .on {
     display: block !important;
 
 }
 
-#cont {
-    width: 500px;
-    height: 400px;
-    background-image: url(../img/nakayamakinnikun.png);
-    margin: 0 auto;
-    display: none;
 
-}
-
-#cont1 {
-    width: 800px;
-    height: 400px;
-    background-image: url(../img/kimura-takuya.png);
-    margin: 0 auto;
-    display: none;
-
-}
 
 #nakayama1 {
     width: 500px;
@@ -274,13 +233,39 @@ li:hover {
 
 }
 
-
-
-#box11 {
+#box13 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.box11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    color: #000;
+    text-shadow: 1px 1px 0 #FFF,
+        -1px -1px 0 #FFF,
+        -1px 1px 0 #FFF,
+        1px -1px 0 #FFF,
+        0px 1px 0 #FFF,
+        0-1px 0 #FFF,
+        -1px 0 0 #FFF,
+        1px 0 0 #FFF;
+}
+
+.box12 {
+    display: none;
+}
+
+.btn {
+    display: none;
+}
+
 
 .button005 a {
 
@@ -298,7 +283,7 @@ li:hover {
 }
 
 #echo2 {
-    font-size: 150px;
+    font-size: 50px;
 }
 
 
@@ -393,4 +378,14 @@ li:hover {
 #echo5 {
     font-size: 90px;
     margin-left: 80px;
+}
+
+.title {
+    margin-top: 60px;
+    background-color: #FFF;
+
+}
+
+.back_img {
+    background-image: url(../img/22701824_l.jpg);
 }
